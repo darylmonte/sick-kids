@@ -21,19 +21,20 @@
 		<!-- Insert your override CSS file here -->
         <link href="css/custom.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body id="page-top" dir="ltr">
+        <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" aria-label="Main Navigation">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#page-top">SickKids Foundation</a>
                 <div class="navbar-toggler navbar-toggler-right" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></div>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <div class="navbar-nav ms-auto my-2 my-lg-0">
-                        <span class="nav-item"><a class="nav-link" href="#values">Values</a></span>
-                        <span class="nav-item"><a class="nav-link" href="#faq">FAQs</a></span>
-                        <span class="nav-item"><a class="nav-link" href="#donate">Donate</a></span>
-                        <span class="nav-item"><a class="nav-link" href="#contact">Contact</a></span>
-                    </div>
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#values">Values</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">FAQs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#donate">Donate</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -46,14 +47,13 @@
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white mb-5">Our vision is simple: Healthier Children. A Better World.<sup>TM</sup><br />
-						As leaders who are committed to delivering outstanding results, we embrace the following core values that together are reflected in the way we work toward our mission, with each other, and our community.</p>
-                        <a class="btn btn-primary btn-xl" href="#values">Find Out More</a>
+                        <p class="text-white mb-5"><span class="d-block">Our vision is simple: Healthier Children. A Better World.<sup>TM</sup></span> As leaders who are committed to delivering outstanding results, we embrace the following core values that together are reflected in the way we work toward our mission, with each other, and our community.</p>
+                        <p><a class="btn btn-primary btn-xl" href="#values">Find Out More</a></p>
                     </div>
                 </div>
             </div>
         </header>
-        <main>
+        <main role="main">
             <!-- Core Values -->
             <section class="page-section bg-dark" id="values">
                 <div class="container col-lg-10 px-4 px-lg-5 text-center">
@@ -79,11 +79,11 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn btn-primary btn-xl" href="#contact">Get in Touch</a>
+                    <p><a class="btn btn-primary btn-xl" href="#contact">Get in Touch</a></p>
                 </div>
             </section>
             <!-- Ways to Donate-->
-            <section class="page-section" id="more-info">
+            <section class="page-section pb-0" id="more-info">
                 <h2 class="text-center mt-0">Ways to Donate</h2>
                 <hr class="divider" />
 
@@ -91,7 +91,7 @@
                     <div class="row g-0">
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Become a monthly donor">
-                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="Become a monthly donor" />
+                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-80">Donate Monthly</div>
                                 </div>
@@ -99,7 +99,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Make a one-time donation">
-                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="Make a one-time donation" />
+                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-80">One-time donation</div>
                                 </div>
@@ -107,7 +107,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Donate in honour or in memory">
-                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="Donate in honour or in memory" />
+                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-80">Dedicate your donation</div>
                                 </div>
@@ -115,7 +115,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Give through your company">
-                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="Give through your company" />
+                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-80">Workplace giving</div>
                                 </div>
@@ -123,7 +123,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Arrange to make a planned gift bequest">
-                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="Arrange to make a planned gift bequest" />
+                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-80">Estate and Legacy giving</div>
                                 </div>
@@ -131,7 +131,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Donate over $10,000">
-                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="Donate over $10,000" />
+                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
                                 <div class="portfolio-box-caption p-3">
                                     <div class="project-category text-white-80">Major Gifts</div>
                                 </div>
@@ -143,8 +143,8 @@
             <!-- Call to action-->
             <section class="page-section bg-dark text-white" id="donate">
                 <div class="container px-4 px-lg-5 text-center">
-                    <h2 class="mb-4"><a href="https://www.sickkidsfoundation.com/" target="_blank">Click here</a> to donate at sickkidsfoundation.com</h2>
-                    <a class="btn btn-primary btn-xl" target="_blank" href="https://www.sickkidsfoundation.com/">Donate</a>
+                    <h2 class="mb-4"><a href="https://www.sickkidsfoundation.com/" target="_blank">Click here to donate</a> at sickkidsfoundation.com</h2>
+                    <p><a class="btn btn-primary btn-xl" target="_blank" href="https://www.sickkidsfoundation.com/">Donate</a></p>
                 </div>
             </section>
             <!-- Services-->
@@ -153,25 +153,25 @@
                     <h2 class="text-center mt-0">FAQs</h2>
                     <hr class="divider" />
                     <div class="row gx-4 gx-lg-5 text-center text-md-start justify-content-center mt-5">
-                        <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
-                            <h4 class="mb-2">Our History</h4>
-                            <p class="text-muted mb-2">Since 1875, SickKids has been leading the fight for kids’ health.</p>
-                            <a href="https://www.sickkidsfoundation.com/aboutus/ourhistory" target="_blank">Click here for more</a>
+                        <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                            <h3 class="mb-2">Our History</h3>
+                            <p class="text-body mb-2">Since 1875, SickKids has been leading the fight for kids’ health.</p>
+                            <p><a href="https://www.sickkidsfoundation.com/aboutus/ourhistory" target="_blank">Click here for more</a></p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
-                            <h4 class="mb-2">Latest News</h4>
-                            <p class="text-muted mb-2">Read the latest news about SickKids Foundation.</p>
-                            <a href="https://www.sickkidsfoundation.com/aboutus/newsandmedia" target="_blank">Click here for more</a>
+                        <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                            <h3 class="mb-2">Latest News</h3>
+                            <p class="text-body mb-2">Read the latest news about SickKids Foundation.</p>
+                            <p><a href="https://www.sickkidsfoundation.com/aboutus/newsandmedia" target="_blank">Click here for more</a></p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
-                            <h4 class="mb-2">Diversity & Inclusion</h4>
-                            <p class="text-muted mb-2">To demonstrate our dedication to advancing diversity and inclusion at the Foundation, we are making the following commitment statement public.</p>
-                            <a href="https://www.sickkidsfoundation.com/aboutus/diversityandinclusion" target="_blank">Click here for more</a>
+                        <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                            <h3 class="mb-2">Diversity & Inclusion</h3>
+                            <p class="text-body mb-2">To demonstrate our dedication to advancing diversity and inclusion at the Foundation, we are making the following commitment statement public.</p>
+                            <p><a href="https://www.sickkidsfoundation.com/aboutus/diversityandinclusion" target="_blank">Click here for more</a></p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
-                                <h4 class="h4 mb-2">Grants and Awards</h4>
-                                <p class="text-muted mb-2">More than $80 million has been granted across the country for children's health through our National Grants Program.</p>
-                                <a href="https://www.sickkidsfoundation.com/aboutus/grantsandawards" target="_blank">Click here for more</a>
+                        <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                            <h3 class="h4 mb-2">Grants and Awards</h3>
+                            <p class="text-body mb-2">More than $80 million has been granted across the country for children's health through our National Grants Program.</p>
+                            <p><a href="https://www.sickkidsfoundation.com/aboutus/grantsandawards" target="_blank">Click here for more</a></p>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                         <div class="col-lg-8 col-xl-6 text-center">
                             <h2 class="mt-0">Contact us</h2>
                             <hr class="divider" />
-                            <p class="text-muted mb-5">If you require additional assistance, please fill out the form below and someone from our team will be in touch with you within two business days.</p>
+                            <p class="text-body mb-5">If you require additional assistance, please fill out the form below and someone from our team will be in touch with you within two business days.</p>
                         </div>
                     </div>
                     <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
@@ -195,26 +195,26 @@
                                 </fieldset>
                                 <div class="col mb-3">
                                     <label for="firstName" class="form-label">First Name</label>
-                                    <input type="text" class="form-control" id="firstName" aria-label="First Name" required>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" aria-label="First Name" required aria-required="true">
                                     <div class="invalid-feedback">Enter your first name</div>
                                 </div>
                                 <div class="col mb-3">
                                     <label for="lastName" class="form-label">Last Name</label>
-                                    <input type="text" class="form-control" id="lastName" aria-label="Last Name" required>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" aria-label="Last Name" required aria-required="true">
                                     <div class="invalid-feedback">Enter your last name</div>
                                 </div>
                                 <div class="mb-3">
                                     <label for="message" class="form-label">Message</label>
-                                    <textarea class="form-control" id="message" required></textarea>
+                                    <textarea class="form-control" id="message" required aria-required="true"></textarea>
                                     <div class="invalid-feedback">Enter a message</div>
                                 </div>
                                 <div class="mb-3">
-                                    <input class="form-check-input" type="checkbox" value="" id="newsletterSignup" aria-label="Sign me up for your newsletter">
+                                    <input class="form-check-input" type="checkbox" value="" id="newsletterSignup" name="newsletterSignup" aria-label="Sign me up for your newsletter">
                                     <label class="form-check-label" for="newsletterSignup">Sign me up for your newsletter</label>
                                 </div>
                                 <div id="emailShow" class="mb-3">
                                     <label for="emailAddress" class="form-label">Email Address</label>
-                                    <input type="email" class="form-control" id="emailAddress" aria-label="Email Address" required>
+                                    <input type="email" class="form-control" id="emailAddress" name="emailAddress" aria-label="Email Address" disabled required aria-required="true">
                                     <div class="invalid-feedback">Enter your email address</div>
                                 </div>
                                 <div class="mt-4">
@@ -229,7 +229,7 @@
         </main>
         <!-- Footer-->
         <footer class="bg-dark py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 - SickKids Foundation</div></div>
+            <div class="container px-4 px-lg-5"><div class="small text-center text-light">Copyright &copy; 2022 - SickKids Foundation</div></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

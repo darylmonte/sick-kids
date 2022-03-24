@@ -12,14 +12,16 @@ a,
 #mainNav .navbar-nav .nav-item .nav-link:active {
   color: rgb(var(--bs-primary-rgb));
 }
+
 a:hover,
 .btn-link:hover,
 .nav-link:hover, .nav-link:focus,
 .page-link:focus,
 .link-primary:hover,
 .link-primary:focus {
-  color: #23527c;
+  color: #61b1ff;
 }
+
 .form-check-input:checked,
 .form-check-input[type=checkbox]:indeterminate,
 .btn-outline-primary,
@@ -34,6 +36,7 @@ a:hover,
   background-color: rgb(var(--bs-primary-rgb));
   border-color: rgb(var(--bs-primary-rgb));
 }
+
 .form-range::-webkit-slider-thumb,
 .form-range::-moz-range-thumb,
 .dropdown-item.active, .dropdown-item:active,
@@ -43,19 +46,18 @@ a:hover,
 .progress-bar {
   background-color: rgb(var(--bs-primary-rgb));
 }
+
+.form-control:focus {
+  border-color: #61b1ff;
+  box-shadow: 0 0 0 0.25rem rgba(97, 177, 255, 0.25);
+}
+
 .border-primary {
   border-color: rgb(var(--bs-primary-rgb)) !important;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: rgb(var(--bs-primary-rgb)) !important;
-}
-
-#emailShow {
-  display: none;
-}
-
-#more-info {
-  padding-bottom: 0 !important;
 }
 
 @media (min-width: 992px) {
@@ -65,4 +67,9 @@ a:hover,
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #fff;
   }
+}
+
+/* Hide the email field by default when checkbox is unchecked */
+#emailShow {
+  display: none;
 }

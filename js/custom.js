@@ -22,7 +22,13 @@
 // Check if newsletter is checked
 const checkbox = document.getElementById('newsletterSignup');
 const emailAddress = document.getElementById('emailShow');
+const emailField = document.getElementById('emailAddress');
 checkbox.addEventListener('change', e => {
   const clicked = e.target;
-  clicked.checked ? emailAddress.style.display = 'block' : emailAddress.style.display = 'none';
+  if (clicked.checked) {
+    emailAddress.style.display = 'block';
+    emailField.disabled = false;
+  } else {
+    emailAddress.style.display = 'none';
+  }
 });
