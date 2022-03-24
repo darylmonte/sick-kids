@@ -1,0 +1,68 @@
+@import 'styles.css';
+
+/* Fix Brand Colour Inconsistencies */
+a,
+#mainNav .navbar-nav .nav-item .nav-link.active,
+.btn-outline-primary:disabled, .btn-outline-primary.disabled,
+.btn-link,
+.nav-link,
+.page-link,
+.link-primary,
+#mainNav .navbar-nav .nav-item .nav-link:hover, 
+#mainNav .navbar-nav .nav-item .nav-link:active {
+  color: rgb(var(--bs-primary-rgb));
+}
+a:hover,
+.btn-link:hover,
+.nav-link:hover, .nav-link:focus,
+.page-link:focus,
+.link-primary:hover,
+.link-primary:focus {
+  color: #23527c;
+}
+.form-check-input:checked,
+.form-check-input[type=checkbox]:indeterminate,
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-check:checked + .btn-outline-primary, 
+.btn-check:active + .btn-outline-primary, 
+.btn-outline-primary:active, 
+.btn-outline-primary.active, 
+.btn-outline-primary.dropdown-toggle.show,
+.page-item.active .page-link,
+.list-group-item.active {
+  background-color: rgb(var(--bs-primary-rgb));
+  border-color: rgb(var(--bs-primary-rgb));
+}
+.form-range::-webkit-slider-thumb,
+.form-range::-moz-range-thumb,
+.dropdown-item.active, .dropdown-item:active,
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active,
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link,
+.progress-bar {
+  background-color: rgb(var(--bs-primary-rgb));
+}
+.border-primary {
+  border-color: rgb(var(--bs-primary-rgb)) !important;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: rgb(var(--bs-primary-rgb)) !important;
+}
+
+#emailShow {
+  display: none;
+}
+
+#more-info {
+  padding-bottom: 0 !important;
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink .navbar-brand:hover {
+    color: rgb(var(--bs-primary-rgb)) !important;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+  }
+}
